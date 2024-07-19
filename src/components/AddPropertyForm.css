@@ -1,0 +1,70 @@
+.add-property-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f6d4d4;
+    border: 1px solid #cd9898;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .drop{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    background-color: #c572a1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cancel:hover
+   {
+    background-color: #e97807;
+    color: rgb(14, 15, 15);
+  }
+  .delete:hover
+   {
+    background-color: #e97807;
+    color: rgb(14, 15, 15);
+  }
+  .update:hover{
+    background-color: rgb(167, 241, 176);
+  }
+  
+  label {
+    margin-left: 5px;
+  }
+
+  input[type="checkbox"] {
+    width: auto; 
+    padding: 0;
+    margin-right: 10px; 
+    background-color: aqua;
+  }
+  
+
+  
+  

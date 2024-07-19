@@ -1,0 +1,55 @@
+
+.property-list {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  /* border-collapse: collapse; */
+  border: 1px solid greenyellow;
+}
+
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #c79999;
+}
+
+tr:nth-child {
+  background-color: #cdeea0;
+}
+
+tr:hover {
+  background-color: #f6f4f1;
+}
+
+.search-container {
+  display: flex;
+  margin-left: 950px;
+  margin-top: 10px;
+}
+
+.search-input {
+  height: 40px;
+  margin-right: 10px;
+  color: rgb(87, 1, 1);
+  font-weight:500;
+  font-size: medium;
+}
+
+.prop{
+  align-items: left;
+  display: flex;
+}
+
+.ud{
+  display: flex;
+  flex-direction: column;
+}
+.delete{
+  background-color: #deb823;
+}
