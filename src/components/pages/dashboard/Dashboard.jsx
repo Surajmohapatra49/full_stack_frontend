@@ -19,8 +19,7 @@ const Dashboard = () => {
             <Nav className="m-auto d-flex">
               <Nav.Link as={Link} to="/" className="mx-4">Home</Nav.Link>
               <Nav.Link as={Link} to="#" className="mx-4">About</Nav.Link>
-              <Nav.Link as={Link} to="/register" className="mx-4">Register</Nav.Link>
-              <Nav.Link as={Link} to="/login" className="mx-4">Login</Nav.Link>
+              <Nav.Link as={Link} to="#" className="mx-4">Contact</Nav.Link>
             </Nav>
             <Nav>
               <NavDropdown title={<><FaUser /></>} id="basic-nav-dropdown">
